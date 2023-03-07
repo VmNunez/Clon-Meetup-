@@ -650,4 +650,41 @@ p {
   text-align: center;
 }
 
+.meeti__heading {
+  text-align: center;
+  margin: 0;
+  color: #484349;
+  margin-bottom: 5rem;
+}
+.meeti__grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media (min-width: 768px) {
+  .meeti__grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.meeti__contenido {
+  grid-column: 1/3;
+}
+
+.sidebar__mapa {
+  width: 100%;
+}
+.sidebar__contenido {
+  background-color: #068D9D;
+  padding: 2rem;
+  text-align: center;
+}
+.sidebar__heading, .sidebar__texto {
+  color: #FFFFFF;
+}
+.sidebar__label {
+  font-weight: 700;
+}
+
 /*# sourceMappingURL=app.css.map */
